@@ -20,5 +20,16 @@
         android:layout_height="wrap_content"
         android:text="두번째"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전달 내용 입력"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/gotoThirdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="세번째"/>
+
 
 </LinearLayout>
